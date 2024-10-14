@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Digital Clock</title>
+		<script src="https://cdn.tailwindcss.com"></script>
+		<link rel="stylesheet" href="styles.css" />
+		<script
+			src="https://code.jquery.com/jquery-3.7.1.min.js"
+			integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+			crossorigin="anonymous"
+		></script>
+	</head>
+	<body class="h-screen w-full flex justify-center items-center flex-col">
+		<h1 class="text-3xl font-medium text-center uppercase py-4 mb-2.5">This is the current Time</h1>
+		<div class="flex justify-center items-center column-gap">
+			<div class="time flex flex-col bg-cyan-600">
+				<span class="text-xl w-full bg-cyan-700 p-1">Hours</span>
+				<span id="hours" class="text-4xl mt-8">00</span>
+			</div>
+			<div class="time flex flex-col bg-lime-500">
+				<span class="text-xl w-full bg-lime-600 p-1">Minutes</span>
+				<span id="min" class="text-4xl mt-8">00</span>
+			</div>
+			<div class="time flex flex-col bg-orange-500">
+				<span class="text-xl bg-orange-600 w-full p-1">Seconds</span>
+				<span id="sec" class="text-4xl mt-8">00</span>
+			</div>
+			<div class="time flex items-center flex-col bg-green-500">
+				<span class="text-xl bg-green-600 w-full p-1">Period</span>
+				<span id="period" class="text-4xl mt-8">Am</span>
+			</div>
+		</div>
+	</body>
+	<script src="jquery.js"></script>
+</html>

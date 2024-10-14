@@ -1,0 +1,12 @@
+* {
+	box-sizing: border-box;
+}
+.time {
+	width: 120px;
+	height: 150px;
+	text-align: center;
+	color: #faf8f8;
+}
+.column-gap {
+	column-gap: 20px;
+}
